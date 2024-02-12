@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>EXALT</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.css" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/mstile-150x150.png">
+<meta name="theme-color" content="#ffffff">
+
+<style type="text/css">
+iframe {
+  border: none;
+  width: 100%;
+  height: 500px;
+}
+
+@media (min-width: 1024px) {
+  .content_viewport {
+    border: 0px none;
+    height: 900px;
+width: 100%;
+  }
+}
+@media (max-width: 1023px) {
+  .content_viewport {
+    border: 0px none;
+    height: 900px;
+width: 100%;  }
+}
+@media (min-width: 768px) {
+  .content_viewport {
+    border: 0px none;
+    height: 900px;
+width: 100%;  }
+}
+</style>
+</head>
+
+<body id="page-top"><nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav"><a class="navbar-brand js-scroll-trigger" href="#page-top"><span class="d-block d-lg-none">EXALT</span> <span class="d-none d-lg-block"> <img alt="" class="img-fluid img-profile mx-auto mb-4" src="img/emotions.jpg" /> </span> </a><button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"></button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav">
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#introductionandmotivation">Introduction and Motivation</a></li>
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#taskdescription">Task Description</a></li>
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#data">Data</a></li>
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#evaluation">Evaluation</a></li>
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#howtopartecipate">How To Participate</a></li>
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#importantdates">Important Dates</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#officialranking">Official Ranking</a></li>
+	<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#googlegroup">Contact Us</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="container-fluid p-0">
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+<div class="w-100">
+<h1 class="mb-0">EXALT</h1>
+
+<div class="subheading mb-5">Explainability for Cross-Lingual Emotion in Tweets <a href="">EXALT@WASSA 2024</a></div>
+
+<p class="lead mb-5">Welcome to the web page of EXALT, the first shared task on explainability of cross-lingual emotion detection. With recent developments of large, opaque, black box systems behind APIs, it is becoming harder and harder to understand the rationales behind decisions made by these models for subjective tasks. To look further into one such direction, we aim to better understand the decision making of emotion detection systems and assess if they are capable of understanding the triggers of emotion in social media data.</p>
+  
+
+<p>The task will be organized within the 14th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA). WASSA will be co-located with the Annual Meeting of the Association of Computational Linguistics (ACL) 2024 in Bangkok, Thailand.</p>
+
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<h2>Organizers</h2>
+
+<p><a href="https://lt3.ugent.be/people/aaron-maladry/" target="_blank">Aaron Maladry</a><sup>1</sup></p>
+
+<p><a href="https://lt3.ugent.be/people/pranaydeep-singh/" target="_blank">Pranaydeep Singh</a><sup>1</sup></p>
+
+<p><a href="https://lt3.ugent.be/people/els-lefever/" target="_blank">Els Lefever</a><sup>1</sup></p>
+
+<p>1. Language & Translation Technology Team, Ghent University</p>
+</div>
+
+<!-- <div class="container">
+<div class="row">
+<div class="col-sm">
+<h3 class="title">Website Credits</h3>
+
+<p><a href="http://www.di.unito.it/~lai/" target="_blank">Mirko Lai</a></p>
+
+</div>
+</div>
+</div>
+</div>
+</div> -->
+<!--      <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>--></div>
+</section>
+
+<hr class="m-0" />
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="introductionandmotivation">
+<div class="w-100">
+<h2 class="mb-5">Introduction and Motivation</h2>
+
+
+<p>Emotion detection is a well-studied task in the field of NLP and has already been addressed in previous runs of SemEval<sup>1,2</sup>. In this shared task, we want to go one step further and offer a manually annotated multilingual benchmark data set, where not only emotions are labeled, but also the words triggering these emotions. To this end, we want to investigate to what extent emotion information is transferable across languages, by offering training data in English, and evaluation data for 5 different target languages, namely <strong>Dutch, Russian, Spanish, English</strong>, and <strong>French</strong>. 
+In addition, predicting trigger words should be a first step to endorsing emotion detection systems with a means to explain why a specific emotion has been predicted. With an ever-rising flurry of black-box models, we want to encourage research that moves towards the interpretability and explainability of the systems.</p>
+
+<p>As there is no real consensus on a standard emotion labeling framework, we opted to apply the label set of Debruyne et al.<sup>3</sup>, which is justified both theoretically and practically. Frequency and cluster analysis of tweet annotations resulted in a label set containing the 5 emotions: <strong>Love,
+Joy, Anger, Fear</strong> and <strong>Sadness</strong>. This label set certainly shows a resemblance to Ekman’s basic emotions, but due to the applied data-driven approach, the label set is more grounded in the
+task of emotion detection in text. As we did not crawl our data based on emojis (as was the case for Debruyne et al.), we also added a <strong>Neutral</strong> emotion label to the emotion label set.</p>
+
+
+
+
+
+<br>
+<br>
+<p>1. <em>Saif Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko. 2018b. SemEval-2018 task 1: Affect in tweets. In Proceedings of the 12th International Workshop on Semantic Evaluation, pages 1–17, New Orleans, Louisiana. Association for Computational Linguistics.</em></p>
+<p>2. <em>Ankush Chatterjee, Kedhar Nath Narahari, Meghana Joshi, and Puneet Agrawal. 2019. SemEval-2019 task 3: EmoContext contextual emotion detection in text. In Proceedings of the 13th International Workshop on Semantic Evaluation, pages 39–48, Minneapolis, Minnesota, USA. Association for Computational Linguistics.</em></p>
+<p>3. <em>Luna De Bruyne, Orphée De Clercq, and Veronique Hoste. 2019. Towards an empirically grounded framework for emotion analysis. In Proceedings of HUSO 2019, the fifth international conference on human and social analytics, pages 11–16. IARIA, International Academy, Research, and Industry Association.</em></p>
+
+
+</div>
+</section>
+
+<hr class="m-0" />
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="taskdescription">
+<div class="w-100">
+<h2 class="mb-5">Task Description</h2>
+
+<p dir="ltr">We present a cross-lingual emotion detection task, that consists of the following two sub-tasks:</p>
+<br>
+
+<p><strong>1. Cross-lingual emotion detection task:</strong></p>
+
+<p>Predict for each tweet the correct emotion label from 6 possible classes: <strong>Love,
+  Joy, Anger, Fear, Sadness, Neutral</strong> in five target languages. More concretely, we present the participants with an English data set of 6000 tweets, which can be used for training and validation. For the evaluation phase, we then present smaller test sets of 500 tweets for each of the test languages.<br><u>Note: The participants are free to use additional training resources, though they should be restricted to English only to evaluate the efficacy of the cross-lingual setup.</u></p>
+<img src="img/EXALT_1.png" alt="EXALT" style="width:50%;max-width:400px">
+<br>
+
+<p><strong>2. Predict the text span triggering the predicted emotion label:</strong></p>
+
+<p>For the second task, we propose trigger word detection, a token-classification task that is focused on explaining which words are used to express the emotion. Detailed information on how these trigger words have been labeled can be found in the <a href="https://biblio.ugent.be/publication/01HHSH3CDPHWA217Y73PHAVK5R">annotation guidelines.</a></p>
+<img src="img/EXALT_2.png" alt="EXALT" style="width:50%;max-width:400px">
+<br>
+
+<p>&nbsp;</p>
+</div>
+</section>
+
+<hr class="m-0" />
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="data">
+<div class="w-100">
+<h2 class="mb-5">Data</h2>
+
+<p>The dataset will be available on the <a href="">Codalab page</a> from the 15th of February, 2024. </p>
+
+<p>The test set will be available in the same repository from May 13th, 2024. The training data will be available in English, and the test data will be available in the following languages: <strong>Dutch, Russian, Spanish, English, and French.</strong> &nbsp;</p>
+</div>
+</section>
+
+<hr class="m-0" />
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="evaluation">
+<div class="w-100">
+<h2 class="mb-5">Evaluation</h2>
+
+<p dir="ltr">Each participating team will initially have access to the training data only. The unlabelled test data will be released at a later date(see the timeframe <a href="#importantdates">here</a>) After the evaluation phase is complete, the labels for the test data will be released as well.</p>
+
+<p dir="ltr">The evaluation will be performed according to the standard metrics. For Task 1, this would be the average micro-F1 score over all the test languages. We will also report results per language to highlight the top systems for each test language. </p>
+<p dir="ltr">For Task 2, we will use MAP (Mean average precision) over all the tokens. We will also report the best systems based on pearson correlation to highlight the top systems which might be using attribution based explainability methods with non-integer attribution for each token.</p>
+
+<h2 dir="ltr">Baselines</h2>
+
+<p dir="ltr">For both sub-tasks, we will compute a first baseline. For Task 1, this will be a fine-tuned XLM-RoBERTa, while for Task 2, the system will be based on SHAPLEY values.</p>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr">&nbsp;</p>
+</div>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="howtopartecipate">
+<div class="w-100">
+<h2 class="mb-5">How To Participate</h2>
+
+<p dir="ltr">Register your team by using the registration web form <a href="" target="_blank">here</a>.</p>
+
+<p dir="ltr">Information about the submission of results and their format will be available on the <a href="">Codalab</a> page.</p>
+
+<p dir="ltr">We invite the potential participants to subscribe to our <a href="" target="_blank">Google Group</a> in order to be kept up to date with the latest news related to the task. Please share comments and questions with the mailing list. The organizers can then assist you with issues and questions.</p>
+
+<p dir="ltr">Participants will be required to provide an abstract and a technical report including a brief description of their approach, an illustration of their experiments, in particular techniques and resources used, and an analysis of their results for the publication in the Proceedings of the task.</p>
+</div>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="importantdates">
+<div class="w-100">
+<h2 class="mb-5">Important Dates</h2>
+
+<p><strong>15th February 2024</strong>: Training data available on <a href="" target="_blank"></a>Codalab</a></p>
+
+<p><strong>13th May 2024</strong>: Evaluation phase begins. Test data available.</p>
+
+<p><strong>15th May 2024</strong>: Final submissions. End of evaluation phase.</p>
+
+<div>
+<p><strong>22nd May 2024</strong>: Deadline for submission of system description papers</p>
+</div>
+
+<p><strong>22nd June 2024</strong>: Notification of acceptance</p>
+
+<div>
+<p><strong>1st July 2024</strong>: Camera-ready papers due</p>
+</div>
+
+<p><strong>15th-16th August 2024</strong>: Final workshop in Bangkok, Thailand.(online & in-person)</p>
+</div>
+</section>
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="officialranking">
+<div class="w-100">
+<h2 class="mb-5">Official Rankings</h2>
+
+
+<p><strong>Task 1</strong></p>
+
+<!-- <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-dcpn{background-color:#ffffff;border-color:#333333;text-align:center;vertical-align:top}
+.tg .tg-9u18{background-color:#ffffff;border-color:#333333;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-n6l6{background-color:#ffffff;border-color:#333333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-33zw{background-color:#ffffff;border-color:#333333;font-style:italic;text-align:left;vertical-align:bottom}
+.tg .tg-7nga{background-color:#ffffff;border-color:#333333;font-style:italic;text-align:left;vertical-align:top}
+.tg .tg-c8ib{background-color:#ffffff;border-color:#333333;text-align:left;vertical-align:bottom}
+.tg .tg-ov6f{background-color:#ffffff;border-color:#333333;text-align:left;vertical-align:top}
+.tg .tg-0huc{background-color:#ffffff;border-color:#333333;font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 1371px">
+<colgroup>
+<col style="width: 63.66667px">
+<col style="width: 141.33334px">
+<col style="width: 101.33334px">
+<col style="width: 109.33334px">
+<col style="width: 127.33334px">
+<col style="width: 123.66667px">
+<col style="width: 118.66667px">
+<col style="width: 102.66667px">
+<col style="width: 98.66667px">
+<col style="width: 107.66667px">
+<col style="width: 98.66667px">
+<col style="width: 117.33334px">
+<col style="width: 111.66667px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-n6l6">ranking</th>
+    <th class="tg-n6l6">team name</th>
+    <th class="tg-n6l6">framework</th>
+    <th class="tg-9u18">f-avg</th>
+    <th class="tg-9u18">precision_against</th>
+    <th class="tg-9u18">precision_favour</th>
+    <th class="tg-9u18">precision_none</th>
+    <th class="tg-9u18">recall_against</th>
+    <th class="tg-9u18">recall_favour</th>
+    <th class="tg-9u18">recall_none</th>
+    <th class="tg-9u18">f_against</th>
+    <th class="tg-9u18">f_favour</th>
+    <th class="tg-9u18">f_none</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c8ib">1</td>
+    <td class="tg-ov6f">Baseline</td>
+    <td class="tg-ov6f">unconstrained</td>
+    <td class="tg-dcpn">0.6853</td>
+    <td class="tg-dcpn">0.8150</td>
+    <td class="tg-dcpn">0.5916</td>
+    <td class="tg-dcpn">0.3436</td>
+    <td class="tg-dcpn">0.7601</td>
+    <td class="tg-dcpn">0.5765</td>
+    <td class="tg-dcpn">0.4535</td>
+    <td class="tg-dcpn">0.7866</td>
+    <td class="tg-dcpn">0.5840</td>
+    <td class="tg-dcpn">0.3910</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">2</td>
+    <td class="tg-ov6f">UNITOR</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6801</td>
+    <td class="tg-dcpn">0.8343</td>
+    <td class="tg-dcpn">0.5187</td>
+    <td class="tg-dcpn">0.3659</td>
+    <td class="tg-dcpn">0.7466</td>
+    <td class="tg-dcpn">0.6378</td>
+    <td class="tg-dcpn">0.4360</td>
+    <td class="tg-dcpn">0.7881</td>
+    <td class="tg-dcpn">0.5721</td>
+    <td class="tg-dcpn">0.3979</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">3</td>
+    <td class="tg-ov6f">UNITOR</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6793</td>
+    <td class="tg-dcpn">0.8183</td>
+    <td class="tg-dcpn">0.5240</td>
+    <td class="tg-dcpn">0.3571</td>
+    <td class="tg-dcpn">0.7709</td>
+    <td class="tg-dcpn">0.6122</td>
+    <td class="tg-dcpn">0.3779</td>
+    <td class="tg-dcpn">0.7939</td>
+    <td class="tg-dcpn">0.5647</td>
+    <td class="tg-dcpn">0.3672</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">4</td>
+    <td class="tg-ov6f">DeepReading</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6621</td>
+    <td class="tg-dcpn">0.8469</td>
+    <td class="tg-dcpn">0.5060</td>
+    <td class="tg-dcpn">0.3500</td>
+    <td class="tg-dcpn">0.6860</td>
+    <td class="tg-dcpn">0.6429</td>
+    <td class="tg-dcpn">0.5291</td>
+    <td class="tg-dcpn">0.7580</td>
+    <td class="tg-dcpn">0.5663</td>
+    <td class="tg-dcpn">0.4213</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">5</td>
+    <td class="tg-ov6f">UNITOR</td>
+    <td class="tg-ov6f">unconstrained</td>
+    <td class="tg-dcpn">0.6606</td>
+    <td class="tg-dcpn">0.8167</td>
+    <td class="tg-dcpn">0.5388</td>
+    <td class="tg-dcpn">0.3156</td>
+    <td class="tg-dcpn">0.7264</td>
+    <td class="tg-dcpn">0.5663</td>
+    <td class="tg-dcpn">0.4477</td>
+    <td class="tg-dcpn">0.7689</td>
+    <td class="tg-dcpn">0.5522</td>
+    <td class="tg-dcpn">0.3702</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">6</td>
+    <td class="tg-ov6f">IXA</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6473</td>
+    <td class="tg-dcpn">0.8209</td>
+    <td class="tg-dcpn">0.5117</td>
+    <td class="tg-dcpn">0.3255</td>
+    <td class="tg-dcpn">0.7102</td>
+    <td class="tg-dcpn">0.5561</td>
+    <td class="tg-dcpn">0.4826</td>
+    <td class="tg-dcpn">0.7616</td>
+    <td class="tg-dcpn">0.5330</td>
+    <td class="tg-dcpn">0.3888</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">7</td>
+    <td class="tg-ov6f">GhostWriter</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6257</td>
+    <td class="tg-dcpn">0.8106</td>
+    <td class="tg-dcpn">0.4709</td>
+    <td class="tg-dcpn">0.3226</td>
+    <td class="tg-dcpn">0.6981</td>
+    <td class="tg-dcpn">0.5357</td>
+    <td class="tg-dcpn">0.4651</td>
+    <td class="tg-dcpn">0.7502</td>
+    <td class="tg-dcpn">0.5012</td>
+    <td class="tg-dcpn">0.3810</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">8</td>
+    <td class="tg-ov6f">IXA</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6171</td>
+    <td class="tg-dcpn">0.8459</td>
+    <td class="tg-dcpn">0.3947</td>
+    <td class="tg-dcpn">0.3349</td>
+    <td class="tg-dcpn">0.6806</td>
+    <td class="tg-dcpn">0.6122</td>
+    <td class="tg-dcpn">0.4070</td>
+    <td class="tg-dcpn">0.7543</td>
+    <td class="tg-dcpn">0.4800</td>
+    <td class="tg-dcpn">0.3675</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">9</td>
+    <td class="tg-ov6f">SSNCSE-NLP</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6067</td>
+    <td class="tg-dcpn">0.7506</td>
+    <td class="tg-dcpn">0.4245</td>
+    <td class="tg-dcpn">0.2679</td>
+    <td class="tg-dcpn">0.7951</td>
+    <td class="tg-dcpn">0.4592</td>
+    <td class="tg-dcpn">0.1744</td>
+    <td class="tg-dcpn">0.7723</td>
+    <td class="tg-dcpn">0.4412</td>
+    <td class="tg-dcpn">0.2113</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">10</td>
+    <td class="tg-ov6f">DeepReading</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6004</td>
+    <td class="tg-dcpn">0.8387</td>
+    <td class="tg-dcpn">0.4286</td>
+    <td class="tg-dcpn">0.3069</td>
+    <td class="tg-dcpn">0.5957</td>
+    <td class="tg-dcpn">0.6122</td>
+    <td class="tg-dcpn">0.5407</td>
+    <td class="tg-dcpn">0.6966</td>
+    <td class="tg-dcpn">0.5042</td>
+    <td class="tg-dcpn">0.3916</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">11</td>
+    <td class="tg-ov6f">GhostWriter</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.6004</td>
+    <td class="tg-dcpn">0.8094</td>
+    <td class="tg-dcpn">0.4772</td>
+    <td class="tg-dcpn">0.2921</td>
+    <td class="tg-dcpn">0.6523</td>
+    <td class="tg-dcpn">0.4796</td>
+    <td class="tg-dcpn">0.5349</td>
+    <td class="tg-dcpn">0.7224</td>
+    <td class="tg-dcpn">0.4784</td>
+    <td class="tg-dcpn">0.3778</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">12</td>
+    <td class="tg-ov6f">UninaStudents</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.5886</td>
+    <td class="tg-dcpn">0.7300</td>
+    <td class="tg-dcpn">0.4348</td>
+    <td class="tg-dcpn">0.3488</td>
+    <td class="tg-dcpn">0.8491</td>
+    <td class="tg-dcpn">0.3571</td>
+    <td class="tg-dcpn">0.1744</td>
+    <td class="tg-dcpn">0.7850</td>
+    <td class="tg-dcpn">0.3922</td>
+    <td class="tg-dcpn">0.2326</td>
+  </tr>
+  <tr>
+    <td class="tg-33zw"></td>
+    <td class="tg-7nga">baseline</td>
+    <td class="tg-7nga"></td>
+    <td class="tg-0huc">0.5784</td>
+    <td class="tg-0huc">0.7549</td>
+    <td class="tg-0huc">0.3975</td>
+    <td class="tg-0huc">0.2589</td>
+    <td class="tg-0huc">0.6806</td>
+    <td class="tg-0huc">0.4949</td>
+    <td class="tg-0huc">0.2965</td>
+    <td class="tg-0huc">0.7158</td>
+    <td class="tg-0huc">0.4409</td>
+    <td class="tg-0huc">0.2764</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">13</td>
+    <td class="tg-ov6f">TextWiller</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.5773</td>
+    <td class="tg-dcpn">0.7306</td>
+    <td class="tg-dcpn">0.3707</td>
+    <td class="tg-dcpn">0.3333</td>
+    <td class="tg-dcpn">0.8261</td>
+    <td class="tg-dcpn">0.3878</td>
+    <td class="tg-dcpn">0.1279</td>
+    <td class="tg-dcpn">0.7755</td>
+    <td class="tg-dcpn">0.3791</td>
+    <td class="tg-dcpn">0.1849</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">14</td>
+    <td class="tg-ov6f">SSNCSE-NLP</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.5749</td>
+    <td class="tg-dcpn">0.7798</td>
+    <td class="tg-dcpn">0.3664</td>
+    <td class="tg-dcpn">0.3196</td>
+    <td class="tg-dcpn">0.6873</td>
+    <td class="tg-dcpn">0.4898</td>
+    <td class="tg-dcpn">0.3605</td>
+    <td class="tg-dcpn">0.7307</td>
+    <td class="tg-dcpn">0.4192</td>
+    <td class="tg-dcpn">0.3388</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">15</td>
+    <td class="tg-ov6f">QMUL-SDS</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.5595</td>
+    <td class="tg-dcpn">0.7990</td>
+    <td class="tg-dcpn">0.3135</td>
+    <td class="tg-dcpn">0.2500</td>
+    <td class="tg-dcpn">0.6375</td>
+    <td class="tg-dcpn">0.5918</td>
+    <td class="tg-dcpn">0.2151</td>
+    <td class="tg-dcpn">0.7091</td>
+    <td class="tg-dcpn">0.4099</td>
+    <td class="tg-dcpn">0.2313</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">16</td>
+    <td class="tg-ov6f">QMUL-SDS</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.5329</td>
+    <td class="tg-dcpn">0.8114</td>
+    <td class="tg-dcpn">0.3109</td>
+    <td class="tg-dcpn">0.2744</td>
+    <td class="tg-dcpn">0.5391</td>
+    <td class="tg-dcpn">0.6378</td>
+    <td class="tg-dcpn">0.3430</td>
+    <td class="tg-dcpn">0.6478</td>
+    <td class="tg-dcpn">0.4181</td>
+    <td class="tg-dcpn">0.3049</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">17</td>
+    <td class="tg-ov6f">MeSoVe</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.4989</td>
+    <td class="tg-dcpn">0.7287</td>
+    <td class="tg-dcpn">0.2684</td>
+    <td class="tg-dcpn">0.3155</td>
+    <td class="tg-dcpn">0.7385</td>
+    <td class="tg-dcpn">0.2602</td>
+    <td class="tg-dcpn">0.3081</td>
+    <td class="tg-dcpn">0.7336</td>
+    <td class="tg-dcpn">0.2642</td>
+    <td class="tg-dcpn">0.3118</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">18</td>
+    <td class="tg-ov6f">TextWiller</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.4715</td>
+    <td class="tg-dcpn">0.7804</td>
+    <td class="tg-dcpn">0.4286</td>
+    <td class="tg-dcpn">0.1983</td>
+    <td class="tg-dcpn">0.5889</td>
+    <td class="tg-dcpn">0.1990</td>
+    <td class="tg-dcpn">0.5291</td>
+    <td class="tg-dcpn">0.6713</td>
+    <td class="tg-dcpn">0.2718</td>
+    <td class="tg-dcpn">0.2884</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">19</td>
+    <td class="tg-ov6f">SSN_NLP</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.4707</td>
+    <td class="tg-dcpn">0.7763</td>
+    <td class="tg-dcpn">0.3030</td>
+    <td class="tg-dcpn">0.2453</td>
+    <td class="tg-dcpn">0.4582</td>
+    <td class="tg-dcpn">0.4592</td>
+    <td class="tg-dcpn">0.5349</td>
+    <td class="tg-dcpn">0.5763</td>
+    <td class="tg-dcpn">0.3651</td>
+    <td class="tg-dcpn">0.3364</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">20</td>
+    <td class="tg-ov6f">SSN_NLP</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.4473</td>
+    <td class="tg-dcpn">0.6848</td>
+    <td class="tg-dcpn">0.2194</td>
+    <td class="tg-dcpn">0.1804</td>
+    <td class="tg-dcpn">0.6267</td>
+    <td class="tg-dcpn">0.2653</td>
+    <td class="tg-dcpn">0.2035</td>
+    <td class="tg-dcpn">0.6545</td>
+    <td class="tg-dcpn">0.2402</td>
+    <td class="tg-dcpn">0.1913</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">21</td>
+    <td class="tg-ov6f">Venses</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.3882</td>
+    <td class="tg-dcpn">0.6574</td>
+    <td class="tg-dcpn">0.18</td>
+    <td class="tg-dcpn">0.1907</td>
+    <td class="tg-dcpn">0.4474</td>
+    <td class="tg-dcpn">0.3776</td>
+    <td class="tg-dcpn">0.2151</td>
+    <td class="tg-dcpn">0.5325</td>
+    <td class="tg-dcpn">0.2438</td>
+    <td class="tg-dcpn">0.2022</td>
+  </tr>
+  <tr>
+    <td class="tg-c8ib">22</td>
+    <td class="tg-ov6f">Venses</td>
+    <td class="tg-ov6f">constrained</td>
+    <td class="tg-dcpn">0.3637</td>
+    <td class="tg-dcpn">0.7011</td>
+    <td class="tg-dcpn">0.1881</td>
+    <td class="tg-dcpn">0.2024</td>
+    <td class="tg-dcpn">0.3383</td>
+    <td class="tg-dcpn">0.4847</td>
+    <td class="tg-dcpn">0.2907</td>
+    <td class="tg-dcpn">0.4564</td>
+    <td class="tg-dcpn">0.2710</td>
+    <td class="tg-dcpn">0.2387</td>
+  </tr>
+</tbody>
+</table> -->
+
+
+<br>
+
+<p><strong>Task 2</strong></p>
+
+<!-- <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-rq5v{background-color:#ffffff;border-color:#333333;text-align:center;vertical-align:top}
+.tg .tg-9u18{background-color:#ffffff;border-color:#333333;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-n6l6{background-color:#ffffff;border-color:#333333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-33zw{background-color:#ffffff;border-color:#333333;font-style:italic;text-align:left;vertical-align:bottom}
+.tg .tg-7nga{background-color:#ffffff;border-color:#333333;font-style:italic;text-align:left;vertical-align:top}
+.tg .tg-c8ib{background-color:#ffffff;border-color:#333333;text-align:left;vertical-align:bottom}
+.tg .tg-ov6f{background-color:#ffffff;border-color:#333333;text-align:left;vertical-align:top}
+.tg .tg-0huc{background-color:#ffffff;border-color:#333333;font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 1371px">
+<colgroup>
+<col style="width: 63.66667px">
+<col style="width: 141.33334px">
+<col style="width: 101.33334px">
+<col style="width: 109.33334px">
+<col style="width: 127.33334px">
+<col style="width: 123.66667px">
+<col style="width: 118.66667px">
+<col style="width: 102.66667px">
+<col style="width: 98.66667px">
+<col style="width: 107.66667px">
+<col style="width: 98.66667px">
+<col style="width: 117.33334px">
+<col style="width: 111.66667px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-n6l6">ranking</th>
+    <th class="tg-n6l6">team name</th>
+    <th class="tg-n6l6">framework</th>
+    <th class="tg-9u18">f-avg</th>
+    <th class="tg-9u18">precision_against</th>
+    <th class="tg-9u18">precision_favour</th>
+    <th class="tg-9u18">precision_none</th>
+    <th class="tg-9u18">recall_against</th>
+    <th class="tg-9u18">recall_favour</th>
+    <th class="tg-9u18">recall_none</th>
+    <th class="tg-9u18">f_against</th>
+    <th class="tg-9u18">f_favour</th>
+    <th class="tg-9u18">f_none</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-1wig">1</td>
+    <td class="tg-c6of">IXA</td>
+    <td class="tg-c6of">constrained</td>
+    <td class="tg-rq5v">0.7445</td>
+    <td class="tg-rq5v">0.8539</td>
+    <td class="tg-rq5v">0.6009</td>
+    <td class="tg-rq5v">0.4589</td>
+    <td class="tg-rq5v">0.8585</td>
+    <td class="tg-rq5v">0.6684</td>
+    <td class="tg-rq5v">0.3895</td>
+    <td class="tg-rq5v">0.8562</td>
+    <td class="tg-rq5v">0.6329</td>
+    <td class="tg-rq5v">0.4214</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">2</td>
+    <td class="tg-c6of">TextWiller</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.7309</td>
+    <td class="tg-rq5v">0.8617</td>
+    <td class="tg-rq5v">0.5344</td>
+    <td class="tg-rq5v">0.3520</td>
+    <td class="tg-rq5v">0.8396</td>
+    <td class="tg-rq5v">0.7143</td>
+    <td class="tg-rq5v">0.2558</td>
+    <td class="tg-rq5v">0.8505</td>
+    <td class="tg-rq5v">0.6114</td>
+    <td class="tg-rq5v">0.2963</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">3</td>
+    <td class="tg-c6of">DeepReading</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.7230</td>
+    <td class="tg-rq5v">0.8594</td>
+    <td class="tg-rq5v">0.5370</td>
+    <td class="tg-rq5v">0.3624</td>
+    <td class="tg-rq5v">0.8154</td>
+    <td class="tg-rq5v">0.7041</td>
+    <td class="tg-rq5v">0.3140</td>
+    <td class="tg-rq5v">0.8368</td>
+    <td class="tg-rq5v">0.6093</td>
+    <td class="tg-rq5v">0.3364</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">4</td>
+    <td class="tg-c6of">DeepReading</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.7222</td>
+    <td class="tg-rq5v">0.8481</td>
+    <td class="tg-rq5v">0.5612</td>
+    <td class="tg-rq5v">0.4383</td>
+    <td class="tg-rq5v">0.8127</td>
+    <td class="tg-rq5v">0.6786</td>
+    <td class="tg-rq5v">0.4128</td>
+    <td class="tg-rq5v">0.8300</td>
+    <td class="tg-rq5v">0.6143</td>
+    <td class="tg-rq5v">0.4251</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">5</td>
+    <td class="tg-c6of">TextWiller</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.7147</td>
+    <td class="tg-rq5v">0.8967</td>
+    <td class="tg-rq5v">0.6243</td>
+    <td class="tg-rq5v">0.2931</td>
+    <td class="tg-rq5v">0.7722</td>
+    <td class="tg-rq5v">0.5765</td>
+    <td class="tg-rq5v">0.4942</td>
+    <td class="tg-rq5v">0.8298</td>
+    <td class="tg-rq5v">0.5995</td>
+    <td class="tg-rq5v">0.3680</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">6</td>
+    <td class="tg-c6of">QMUL-SDS</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.7088</td>
+    <td class="tg-rq5v">0.8441</td>
+    <td class="tg-rq5v">0.4852</td>
+    <td class="tg-rq5v">0.2581</td>
+    <td class="tg-rq5v">0.8100</td>
+    <td class="tg-rq5v">0.7551</td>
+    <td class="tg-rq5v">0.1395</td>
+    <td class="tg-rq5v">0.8267</td>
+    <td class="tg-rq5v">0.5908</td>
+    <td class="tg-rq5v">0.1811</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">7</td>
+    <td class="tg-c6of">UNED</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.6888</td>
+    <td class="tg-rq5v">0.8458</td>
+    <td class="tg-rq5v">0.4961</td>
+    <td class="tg-rq5v">0.2531</td>
+    <td class="tg-rq5v">0.7911</td>
+    <td class="tg-rq5v">0.6429</td>
+    <td class="tg-rq5v">0.2384</td>
+    <td class="tg-rq5v">0.8175</td>
+    <td class="tg-rq5v">0.5600</td>
+    <td class="tg-rq5v">0.2455</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">8</td>
+    <td class="tg-c6of">QMUL-SDS</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.6765</td>
+    <td class="tg-rq5v">0.8282</td>
+    <td class="tg-rq5v">0.4167</td>
+    <td class="tg-rq5v">0.4706</td>
+    <td class="tg-rq5v">0.7992</td>
+    <td class="tg-rq5v">0.7653</td>
+    <td class="tg-rq5v">0.0930</td>
+    <td class="tg-rq5v">0.8134</td>
+    <td class="tg-rq5v">0.5396</td>
+    <td class="tg-rq5v">0.1553</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">9</td>
+    <td class="tg-c6of">SSNCSE-NLP</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.6582</td>
+    <td class="tg-rq5v">0.8321</td>
+    <td class="tg-rq5v">0.4715</td>
+    <td class="tg-rq5v">0.3508</td>
+    <td class="tg-rq5v">0.7547</td>
+    <td class="tg-rq5v">0.5918</td>
+    <td class="tg-rq5v">0.3895</td>
+    <td class="tg-rq5v">0.7915</td>
+    <td class="tg-rq5v">0.5249</td>
+    <td class="tg-rq5v">0.3691</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">10</td>
+    <td class="tg-c6of">SSNCSE-NLP</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.6556</td>
+    <td class="tg-rq5v">0.8419</td>
+    <td class="tg-rq5v">0.4574</td>
+    <td class="tg-rq5v">0.3660</td>
+    <td class="tg-rq5v">0.7466</td>
+    <td class="tg-rq5v">0.6020</td>
+    <td class="tg-rq5v">0.4128</td>
+    <td class="tg-rq5v">0.7914</td>
+    <td class="tg-rq5v">0.5198</td>
+    <td class="tg-rq5v">0.3880</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"></td>
+    <td class="tg-c6of">baseline</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.6284</td>
+    <td class="tg-rq5v">0.7845</td>
+    <td class="tg-rq5v">0.4506</td>
+    <td class="tg-rq5v">0.3054</td>
+    <td class="tg-rq5v">0.7507</td>
+    <td class="tg-rq5v">0.5357</td>
+    <td class="tg-rq5v">0.2965</td>
+    <td class="tg-rq5v">0.7672</td>
+    <td class="tg-rq5v">0.4895</td>
+    <td class="tg-rq5v">0.3009</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">11</td>
+    <td class="tg-c6of">GhostWriter</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.6257</td>
+    <td class="tg-rq5v">0.8106</td>
+    <td class="tg-rq5v">0.4709</td>
+    <td class="tg-rq5v">0.3226</td>
+    <td class="tg-rq5v">0.6981</td>
+    <td class="tg-rq5v">0.5357</td>
+    <td class="tg-rq5v">0.4651</td>
+    <td class="tg-rq5v">0.7502</td>
+    <td class="tg-rq5v">0.5012</td>
+    <td class="tg-rq5v">0.3810</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">12</td>
+    <td class="tg-c6of">GhostWriter</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.6004</td>
+    <td class="tg-rq5v">0.8094</td>
+    <td class="tg-rq5v">0.4772</td>
+    <td class="tg-rq5v">0.2921</td>
+    <td class="tg-rq5v">0.6523</td>
+    <td class="tg-rq5v">0.4796</td>
+    <td class="tg-rq5v">0.5349</td>
+    <td class="tg-rq5v">0.7224</td>
+    <td class="tg-rq5v">0.4784</td>
+    <td class="tg-rq5v">0.3778</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">13</td>
+    <td class="tg-c6of">UNED</td>
+    <td class="tg-jxgv">constrained</td>
+    <td class="tg-rq5v">0.5313</td>
+    <td class="tg-rq5v">0.7148</td>
+    <td class="tg-rq5v">0.3409</td>
+    <td class="tg-rq5v">0.2246</td>
+    <td class="tg-rq5v">0.7668</td>
+    <td class="tg-rq5v">0.3061</td>
+    <td class="tg-rq5v">0.1802</td>
+    <td class="tg-rq5v">0.7399</td>
+    <td class="tg-rq5v">0.3226</td>
+    <td class="tg-rq5v">0.2000</td>
+  </tr>
+</tbody>
+</table> -->
+
+</div>
+</section>
+
+
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="googlegroup">
+<div class="w-100">
+<h2 class="mb-5">Contact Us</h2>
+
+<p>Write to us <a href="">here</a>!</p>
+
+<p>Or contact the organizers: <b><a href="mailto:aaron.maladry@ugent.be">Aaron Maladry</a></b> and <b><a href="mailto:pranaydeep.singh@ugent.be">Pranaydeep Singh</a></b>.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><em>Website template credits: <a href="https://www.di.unito.it/~lai/">Mirko Lai</a></em> </p>
+</div>
+
+
+
+</section>
+</div>
+<!-- Bootstrap core JavaScript --><script src="vendor/jquery/jquery.min.js"></script><script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script><!-- Plugin JavaScript --><script src="vendor/jquery-easing/jquery.easing.min.js"></script><!-- Custom scripts for this template --><script src="js/resume.min.js"></script></body>
+
+</html>
+	
